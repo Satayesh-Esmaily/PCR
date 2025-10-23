@@ -1,0 +1,229 @@
+{
+  "capsules": [
+    {
+      "schema": "pocket-classroom/v1",
+      "id": "c_js_001",
+      "title": "Basic JavaScript Concepts",
+      "subject": "Programming",
+      "level": "Beginner",
+      "description": "A mini capsule to learn fundamental JavaScript concepts.",
+      "notes": [
+        "JavaScript is a high-level, interpreted scripting language for web development.",
+        "Variables can be declared using var, let, or const.",
+        "Functions are reusable blocks of code that can accept parameters and return values.",
+        "Arrays store multiple values in a single variable.",
+        "Objects store key-value pairs for structured data.",
+        "JavaScript runs inside the browser and can manipulate the DOM.",
+        "Events allow interaction between user actions and scripts."
+      ],
+      "flashcards": [
+        {"front": "What keyword declares a constant variable?", "back": "const"},
+        {"front": "Which method converts an object to a JSON string?", "back": "JSON.stringify()"},
+        {"front": "How do you declare a function in JS?", "back": "function myFunction() { }"}
+      ],
+      "quiz": [
+        {
+          "question": "Which of these is a primitive data type in JavaScript?",
+          "choices": ["Array", "Object", "Number", "Function"],
+          "correctIndex": 2,
+          "explanation": "Number is a primitive type. Arrays and Objects are reference types."
+        },
+        {
+          "question": "What is the output of `console.log(typeof [])`?",
+          "choices": ["array", "object", "list", "undefined"],
+          "correctIndex": 1,
+          "explanation": "Arrays are objects in JavaScript, so typeof [] returns 'object'."
+        },
+        {
+          "question": "Which keyword is used to define a block-scoped variable?",
+          "choices": ["var", "let", "const", "both let and const"],
+          "correctIndex": 3,
+          "explanation": "Both 'let' and 'const' create block-scoped variables."
+        }
+      ],
+      "books": [
+        {"title": "JavaScript: The Definitive Guide", "url": "https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/"}
+      ],
+      "videos": [
+        {"title": "JavaScript Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk"}
+      ],
+      "updatedAt": "2025-09-27T12:00:00Z"
+    },
+
+    {
+      "schema": "pocket-classroom/v1",
+      "id": "c_python_001",
+      "title": "Python Basics",
+      "subject": "Programming",
+      "level": "Beginner",
+      "description": "Learn the basics of Python programming.",
+      "notes": [
+        "Python is an interpreted, dynamically typed language.",
+        "Variables do not require explicit type declaration.",
+        "Indentation defines code blocks instead of curly braces.",
+        "Lists and dictionaries store collections of data.",
+        "Python supports object-oriented and functional programming.",
+        "Everything in Python is an object.",
+        "Use print() to display output."
+      ],
+      "flashcards": [
+        {"front": "How do you create a list in Python?", "back": "my_list = [1, 2, 3]"},
+        {"front": "Which keyword is used for functions?", "back": "def"},
+        {"front": "How do you write a comment?", "back": "# comment"}
+      ],
+      "quiz": [
+        {
+          "question": "Which of these is mutable in Python?",
+          "choices": ["tuple", "list", "string", "int"],
+          "correctIndex": 1,
+          "explanation": "Lists are mutable, while tuples and strings are immutable."
+        },
+        {
+          "question": "What does `len()` do?",
+          "choices": ["Calculates length", "Deletes variable", "Converts type", "Creates function"],
+          "correctIndex": 0,
+          "explanation": "The len() function returns the number of items in an object."
+        }
+      ],
+      "books": [
+        {"title": "Python Crash Course", "url": "https://nostarch.com/pythoncrashcourse2e"}
+      ],
+      "videos": [
+        {"title": "Python Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=rfscVS0vtbw"}
+      ],
+      "updatedAt": "2025-09-27T12:10:00Z"
+    },
+
+    {
+      "schema": "pocket-classroom/v1",
+      "id": "c_java_001",
+      "title": "Java Fundamentals",
+      "subject": "Programming",
+      "level": "Beginner",
+      "description": "Learn fundamental Java programming concepts.",
+      "notes": [
+        "Java is an object-oriented programming language.",
+        "Variables have explicit data types like int, double, String.",
+        "The main method is the entry point of a Java program.",
+        "Classes and objects form the building blocks of Java.",
+        "Java code runs on the JVM (Java Virtual Machine).",
+        "Use System.out.println() to print output.",
+        "Java supports inheritance, encapsulation, and polymorphism."
+      ],
+      "flashcards": [
+        {"front": "Which method starts a Java program?", "back": "public static void main(String[] args)"},
+        {"front": "How do you declare an integer variable?", "back": "int x = 5;"},
+        {"front": "Which keyword defines a class?", "back": "class"}
+      ],
+      "quiz": [
+        {
+          "question": "Which of these is a Java primitive type?",
+          "choices": ["String", "int", "List", "Map"],
+          "correctIndex": 1,
+          "explanation": "int is a primitive type, while String and List are objects."
+        },
+        {
+          "question": "What does the 'public' keyword define?",
+          "choices": ["Visibility", "Functionality", "Type", "Package"],
+          "correctIndex": 0,
+          "explanation": "'public' means the class or method is accessible from anywhere."
+        }
+      ],
+      "books": [
+        {"title": "Head First Java", "url": "https://www.oreilly.com/library/view/head-first-java/9781491910771/"}
+      ],
+      "videos": [
+        {"title": "Java Programming Tutorial", "url": "https://www.youtube.com/watch?v=grEKMHGYyns"}
+      ],
+      "updatedAt": "2025-09-27T12:20:00Z"
+    },
+
+    {
+      "schema": "pocket-classroom/v1",
+      "id": "c_cpp_001",
+      "title": "C++ Basics",
+      "subject": "Programming",
+      "level": "Beginner",
+      "description": "Learn basic concepts of C++ programming.",
+      "notes": [
+        "C++ supports both object-oriented and procedural programming.",
+        "Variables must be declared with a type before use.",
+        "Use `#include` to import standard libraries.",
+        "Pointers store memory addresses of variables.",
+        "Functions can be overloaded in C++.",
+        "C++ supports templates and operator overloading.",
+        "Classes and structs help organize complex data."
+      ],
+      "flashcards": [
+        {"front": "How do you write 'Hello World' in C++?", "back": "std::cout << \"Hello World\";"},
+        {"front": "Which symbol is used for comments?", "back": "// for single-line, /* */ for multi-line"},
+        {"front": "How do you declare a pointer?", "back": "int* ptr;"}
+      ],
+      "quiz": [
+        {
+          "question": "Which is the correct declaration of an integer?",
+          "choices": ["int x;", "integer x;", "var x;", "num x;"],
+          "correctIndex": 0,
+          "explanation": "In C++, you declare integers using 'int x;'."
+        },
+        {
+          "question": "What does '*' mean in a pointer?",
+          "choices": ["Dereference", "Multiply", "Typecast", "Function pointer"],
+          "correctIndex": 0,
+          "explanation": "The '*' symbol is used to dereference a pointer."
+        }
+      ],
+      "books": [
+        {"title": "The C++ Programming Language", "url": "https://www.stroustrup.com/4th.html"}
+      ],
+      "videos": [
+        {"title": "C++ Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y"}
+      ],
+      "updatedAt": "2025-09-27T12:30:00Z"
+    },
+
+    {
+      "schema": "pocket-classroom/v1",
+      "id": "c_htmlcss_001",
+      "title": "HTML & CSS Essentials",
+      "subject": "Web Development",
+      "level": "Beginner",
+      "description": "Learn the essentials of HTML and CSS for web design.",
+      "notes": [
+        "HTML structures the content of a webpage.",
+        "CSS styles the layout, colors, and fonts of a webpage.",
+        "Selectors target HTML elements for styling.",
+        "The box model defines element spacing and borders.",
+        "IDs are unique identifiers, while classes can be reused.",
+        "Responsive design uses media queries.",
+        "Flexbox and Grid help create complex layouts easily."
+      ],
+      "flashcards": [
+        {"front": "What tag defines a paragraph?", "back": "<p>"},
+        {"front": "How do you link a CSS file?", "back": "<link rel='stylesheet' href='style.css'>"},
+        {"front": "Which property changes text color?", "back": "color"}
+      ],
+      "quiz": [
+        {
+          "question": "Which HTML element is for a heading?",
+          "choices": ["<h1>", "<p>", "<div>", "<span>"],
+          "correctIndex": 0,
+          "explanation": "<h1> is the main heading tag in HTML."
+        },
+        {
+          "question": "Which CSS property sets background color?",
+          "choices": ["color", "background-color", "font-size", "margin"],
+          "correctIndex": 1,
+          "explanation": "'background-color' sets the element's background color."
+        }
+      ],
+      "books": [
+        {"title": "HTML & CSS: Design and Build Websites", "url": "https://www.htmlandcssbook.com/"}
+      ],
+      "videos": [
+        {"title": "HTML & CSS Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=UB1O30fR-EE"}
+      ],
+      "updatedAt": "2025-09-27T12:40:00Z"
+    }
+  ]
+}
