@@ -47,6 +47,9 @@ a place where users can store knowledge, study interactively, and track their pr
 live link:
 https://satayesh-esmaily.github.io/PCR/
 
+DEMO link:
+https://www.loom.com/share/50b50b8bf5bf49eb8e0b458891e78a32
+
 About the Project
 
 Created by Satayesh Esmaily as part of a final classroom project —
@@ -54,4 +57,5 @@ Pocket Classroom represents the fusion of creativity, technology, and curiosity.
 
 Built with 🤎 dedication, late-night debugging, and a genuine passion for learning,
 this project aims to make studying smarter, simpler, and more beautiful —
+
 because education deserves great design too.
